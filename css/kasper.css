@@ -67,7 +67,7 @@ ul li {
 #about-us,
 #pricing,
 #contact-us {
-  padding-bottom: var(--section-padding);
+  padding-top: var(--section-padding);
 }
 /* global rules >> end sections global rules */
 
@@ -482,7 +482,7 @@ header .container .search-box i {
 
 /* start services */
 #services {
-  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .services-inner-container {
@@ -574,7 +574,6 @@ header .container .search-box i {
   background-size: cover;
   background-position: 0 center;
   height: 500px;
-  margin-top: 100px;
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   overflow: hidden;
@@ -633,6 +632,10 @@ header .container .search-box i {
 /* end services */
 
 /* start portfolio */
+#portfolio {
+  padding-bottom: var(--section-padding);
+}
+
 #portfolio ul {
   display: flex;
   justify-content: center;
@@ -826,6 +829,10 @@ header .container .search-box i {
 /* end portfolio */
 
 /* start about-us */
+#about-us {
+   padding-bottom: var(--section-padding);
+}
+
 #about-us > .container > img {
   display: block;
   position: relative;
@@ -1277,7 +1284,7 @@ header .container .search-box i {
 
 /* start pricing */
 #pricing {
-  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 .pricing-plan {
@@ -1572,6 +1579,10 @@ header .container .search-box i {
 /* end newslatter */
 
 /* start contact-us */
+#contact-us {
+  padding-bottom: var(--section-padding);
+}
+
 .message {
   display: flex;
   justify-content: space-between;
