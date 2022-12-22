@@ -69,6 +69,12 @@ ul li {
 #contact-us {
   padding-top: var(--section-padding);
 }
+
+#about-us,
+#pricing,
+#contact-us {
+   padding-bottom: var(--section-padding);
+}
 /* global rules >> end sections global rules */
 
 /* devices from 768px and up */
@@ -481,10 +487,6 @@ header .container .search-box i {
 /* end slider */
 
 /* start services */
-#services {
-  padding-bottom: var(--section-padding);
-}
-
 .services-inner-container {
   display: flex;
   flex-wrap: wrap;
@@ -574,6 +576,7 @@ header .container .search-box i {
   background-size: cover;
   background-position: 0 center;
   height: 500px;
+  margin-top: 100px;
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   overflow: hidden;
@@ -632,10 +635,6 @@ header .container .search-box i {
 /* end services */
 
 /* start portfolio */
-#portfolio {
-  padding-bottom: var(--section-padding);
-}
-
 #portfolio ul {
   display: flex;
   justify-content: center;
@@ -829,10 +828,6 @@ header .container .search-box i {
 /* end portfolio */
 
 /* start about-us */
-#about-us {
-   padding-bottom: var(--section-padding);
-}
-
 #about-us > .container > img {
   display: block;
   position: relative;
@@ -1283,10 +1278,6 @@ header .container .search-box i {
 /* end quote */
 
 /* start pricing */
-#pricing {
-  padding-bottom: var(--section-padding);
-}
-
 .pricing-plan {
   display: flex;
   justify-content: space-between;
@@ -1435,7 +1426,7 @@ header .container .search-box i {
   background-position: 0 center;
   background-size: cover;
   height: 150px;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -1579,10 +1570,6 @@ header .container .search-box i {
 /* end newslatter */
 
 /* start contact-us */
-#contact-us {
-  padding-bottom: var(--section-padding);
-}
-
 .message {
   display: flex;
   justify-content: space-between;
