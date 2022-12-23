@@ -782,11 +782,6 @@ header .container .search-box i {
 
 /* devices from 576px to 767.98px */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #portfolio .gallery {
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-
   #portfolio .gallery .image {
     width: calc(100% / 2);
   }
