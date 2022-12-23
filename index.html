@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Awesome library -->
+    <!-- Font Awesome Free 6.1.2 -->
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- Render All Element Normaly -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -20,18 +20,19 @@
     <title>Kasper Template</title>
   </head>
   <body>
-    <header>
+    <!-- Start Header -->
+    <header id="header">
       <div class="container">
         <h1 class="logo"><img src="image/logo/logo.png" alt="" /></h1>
         <nav>
-          <i class="fas fa-bars menu"></i>
+          <button id="show-menu" onclick="showMenu()"><i class="fas fa-bars"></i></button>
           <ul>
-            <li><a href="#" class="active">home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">pricing</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#about-us">about</a></li>
+            <li><a href="#pricing">pricing</a></li>
+            <li><a href="#contact-us">contact</a></li>
           </ul>
           <div class="search-box">
             <i class="fas fa-search"></i>
@@ -39,15 +40,17 @@
         </nav>
       </div>
     </header>
-    <div class="slider">
-      <div class="slides">
-        <input type="radio" name="bar" id="slide1" />
-        <label for="slide1"></label>
-        <input type="radio" name="bar" id="slide2" checked />
-        <label for="slide2" class="checked"></label>
-        <input type="radio" name="bar" id="slide3" />
-        <label for="slide3"></label>
-        <div class="slide myslide">
+    <!-- End Header -->
+    <!-- Start Slider -->
+    <div id="slider">
+      <div id="slide-buttons">
+        <div class="next-prev">
+          <button id="previous"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+      <div id="slide-show">
+        <div class="slide" id="slide-controller">
           <img src="image/flight-on_2560x1440.jpg" alt="" />
           <div class="intro-text">
             <div class="content">
@@ -88,6 +91,8 @@
         </div>
       </div>
     </div>
+    <!-- End Slider -->
+    <!-- Start Services Section -->
     <section id="services">
       <div class="container">
         <h3 class="special-heading">services</h3>
@@ -143,20 +148,24 @@
         </div>
       </div>
       <div class="services-bottom">
-        <div class="img">
-          <img src="image/mobile.png" alt="" />
-        </div>
-        <div class="design-features">
-          <h4>our design comes with...</h4>
-          <ul>
-            <li>desponsive design</li>
-            <li>modern and clean design</li>
-            <li>clean code</li>
-            <li>browser friendly</li>
-          </ul>
+        <div class="container">
+          <div class="img">
+            <img src="image/mobile.png" alt="" />
+          </div>
+          <div class="design-features">
+            <h4>our design comes with...</h4>
+            <ul>
+              <li>responsive design</li>
+              <li>modern and clean design</li>
+              <li>clean code</li>
+              <li>browser friendly</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
+    <!-- End Service Section -->
+    <!-- Start Portfolio Section -->
     <section id="portfolio">
       <div class="container">
         <h3 class="special-heading">portfolio</h3>
@@ -172,7 +181,7 @@
           <li><a href="#">print</a></li>
         </ul>
       </div>
-      <div class="gallery">
+      <div class="gallery container">
         <div class="image">
           <span></span>
           <img src="image/portfolio-1.jpg" alt="" />
@@ -240,13 +249,17 @@
       </div>
       <a href="#" class="btn btn-primary btn-center">more</a>
       <div class="portfolio-bottom">
-        <div class="content">
-          <h4>super awesome video here</h4>
-          <p>its all you need</p>
-          <a href="#" class="btn">see more</a>
+        <div class="container">
+          <div class="content">
+            <h4>super awesome video here</h4>
+            <p>its all you need</p>
+            <a href="#" class="btn">see more</a>
+          </div>
         </div>
       </div>
     </section>
+    <!-- End Portfolio Section -->
+    <!-- Start About Us Section -->
     <section id="about-us">
       <div class="container">
         <h3 class="special-heading">about us</h3>
@@ -383,6 +396,7 @@
         </div>
       </div>
     </section>
+    <!-- End About Us Section -->
     <div class="quote">
       <div class="container">
         <blockquote>
@@ -392,9 +406,10 @@
         <div>&mdash; john doe</div>
       </div>
     </div>
+    <!-- Start Pricing Section -->
     <section id="pricing">
       <div class="container">
-        <h3 class="special-heading">about us</h3>
+        <h3 class="special-heading">pricing</h3>
         <p>
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
           Mauris blandit aliquet elit, eget tincidunt.
@@ -455,6 +470,7 @@
         </div>
       </div>
     </section>
+    <!-- End Pricing Section -->
     <div class="request">
       <p>Contact us if you have special request</p>
       <a href="#" class="btn btn-primary btn-center">contact us</a>
@@ -471,6 +487,7 @@
         </p>
       </div>
     </div>
+    <!-- Start Contact Us Section -->
     <section id="contact-us">
       <div class="container">
         <h3 class="special-heading">contact us</h3>
@@ -502,6 +519,8 @@
         </div>
       </div>
     </section>
+    <!-- End Contact Us Section -->
+    <!-- Start Footer -->
     <footer>
       <div class="container">
         <div class="logo">
@@ -519,5 +538,7 @@
         </div>
       </div>
     </footer>
+    <!-- End Footer -->
+    <script src="js/kasper.js"></script>
   </body>
 </html>
