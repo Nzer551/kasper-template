@@ -8,6 +8,6 @@
 
 [Elzero Web School](https://www.youtube.com/playlist?list=PLDoPjvoNmBAy1l-2A21ng3gxEyocruT0t)
 
-### PSD File Source
+### Source Of PSD File
 
 [https://www.graphberry.com/item/kasper-one-page-psd-template](https://www.graphberry.com/item/kasper-one-page-psd-template)
