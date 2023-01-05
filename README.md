@@ -2,7 +2,7 @@
 
 ### Demo
 
-[https://nzer-suleiman.github.io/kasper-template/](https://nzer-suleiman.github.io/kasper-template/)
+[https://Nzer551.github.io/kasper-template/](https://Nzer551.github.io/kasper-template/)
 
 ### Learn How To Create The Design
 
