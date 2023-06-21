@@ -342,8 +342,7 @@ header .container .search-box i {
   align-items: center;
   background-color: transparent;
   color: #fff;
-  width: 50px;
-  height: 50px;
+  padding: 10px;
   font-size: 35px;
   outline: none;
   border: none;
@@ -351,7 +350,7 @@ header .container .search-box i {
 }
 
 #slider #slide-buttons #next:hover,
-#slider #slide-show #slide-buttons #previous:hover {
+#slider #slide-buttons #previous:hover {
   background-color: rgba(0, 0, 0, .4);
 }
 
